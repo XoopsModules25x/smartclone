@@ -17,5 +17,4 @@ This module is BETA, meaning it is still under active development. This release 
 <b>testing purposes only</b> and we <b>strongly</b> recommend that you do not use it on a live
 website or in a production environment.");
 
-
 define('_MI_SCLONE_ADMENU1', "Clone a module");

@@ -87,4 +87,3 @@ $i++;
 $pluginPatterns[$i]['key'] = 'WF-Downloads';
 $pluginPatterns[$i]['replacement'] = 'ModuleName';
 $i++;
-

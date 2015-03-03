@@ -12,5 +12,3 @@ include_once("admin_header.php");
 include_once(SMARTOBJECT_ROOT_PATH . "class/smartobjectabout.php");
 $aboutObj = new SmartobjectAbout();
 $aboutObj->render();
-
-?>

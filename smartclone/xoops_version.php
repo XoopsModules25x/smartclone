@@ -8,20 +8,20 @@
  */
 
 if (!defined('XOOPS_ROOT_PATH')) {
-	die('XOOPS root path not defined');
+    die('XOOPS root path not defined');
 }
 
 $modversion['name'] = "SmartClone";
 $modversion['version'] = 1.10;
 $modversion['author'] = "The SmartFactory";
-$modversion['description']	= _MI_SCLONE_MODULE_DESC;
+$modversion['description']    = _MI_SCLONE_MODULE_DESC;
 $modversion['credits'] = "Sudhaker, Solo";
 $modversion['help']        = 'page=help';
 $modversion['license']     = 'GNU GPL 2.0 or later';
 $modversion['license_url'] = "www.gnu.org/licenses/gpl-2.0.html";
-$modversion['official']	= 0;
+$modversion['official']    = 0;
 $modversion['image'] = "images/module_logo.png";
-$modversion['dirname']	= "smartclone";
+$modversion['dirname']    = "smartclone";
 
 $modversion['dirmoduleadmin'] = '/Frameworks/moduleclasses/moduleadmin';
 $modversion['icons16']        = '../../Frameworks/moduleclasses/icons/16';
@@ -61,7 +61,7 @@ $modversion['submit_feature'] = "";
 $modversion['author_word'] = "This module was made possible by 2 great developers. The original cloning script was developed by Sudhaker for the SmartSection module. It was then improved by Solo who encapsulated Sudhaker's code into an easy web form interface for his Edito module. It was only after Solo have shown me his latest Edito that I had the idea to create a module that could clone any module in a '1 click operation'. Many thanks to Sudhaker and Solo for they made this module possible!";
 
 // Admin things
-$modversion['hasAdmin']	= 1;
+$modversion['hasAdmin']    = 1;
 $modversion['system_menu'] = 1;
 $modversion['adminindex'] = "admin/index.php";
 $modversion['adminmenu'] = "admin/menu.php";
@@ -73,10 +73,10 @@ $modversion['hasSearch'] = 0;
 $modversion['hasMain'] = 0;
 
 // Templates
-$modversion['templates'][1]['file']	= 'smartclone_index.html';
+$modversion['templates'][1]['file']    = 'smartclone_index.html';
 $modversion['templates'][1]['description'] = 'Help main page';
 
-$modversion['templates'][2]['file']	= 'smartclone_register.html';
+$modversion['templates'][2]['file']    = 'smartclone_register.html';
 $modversion['templates'][2]['description'] = 'Page to inform user that he needs to be a member to use Live Help';
 
 // Config options
@@ -194,6 +194,4 @@ $i = 0;
  $modversion['config'][$i]['valuetype'] = 'int';
  $modversion['config'][$i]['default'] = true;
 
- */
-
-?>
+ */;

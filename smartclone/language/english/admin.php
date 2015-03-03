@@ -25,4 +25,3 @@ define("_AM_SCLONE_INSTALL_CHECK", "Would you like to be directed to the install
 
 define("_AM_SCLONE_WHERE_OTHER_MODULE", "Where are my other modules ?");
 define("_AM_SCLONE_WHERE_OTHER_MODULE_EXP", "For a module to appear in this select box, it has to be present on your site AND it needs to have a related plugin file in the smartclone/plugins folder. If you would like to a clone a module for which no plugin has already been written, we encourage you to create it yourself ! Simply copy one of the plugin file already in that folder and rename the file with the name of this new module. We have documented the plugin structure directly in the file so please read all the commented code.");
-?>

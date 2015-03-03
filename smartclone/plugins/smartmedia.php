@@ -77,5 +77,3 @@ $i++;
 $pluginPatterns[$i]['key'] = 'SmartMedia';
 $pluginPatterns[$i]['replacement'] = 'ModuleName';
 $i++;
-
-?>

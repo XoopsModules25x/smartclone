@@ -41,7 +41,6 @@ $pathModuleAdmin = $xoopsModule->getInfo('dirmoduleadmin');
 
 include_once $GLOBALS['xoops']->path($pathModuleAdmin.'/moduleadmin.php');
 
-
 if (!defined("SMARTCLONE_NOCPFUNC")) {
     include_once '../../../include/cp_header.php';
 }

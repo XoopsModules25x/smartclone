@@ -8,6 +8,7 @@ class SmartclonePlugins {
         if (file_exists($pluginName)) {
             include_once($pluginName);
             $this->pluginPatterns = $pluginPatterns;
+
             return true;
         } else {
             return false;
@@ -27,7 +28,7 @@ class SmartclonePlugins {
                 }
             }
         }
+
         return $ret;
     }
 }
-?>

@@ -19,7 +19,6 @@ $pathIcon32      = $module->getInfo('icons32');
 $pathModuleAdmin = $module->getInfo('dirmoduleadmin');
 $pathLanguage    = $path . $pathModuleAdmin;
 
-
 if (!file_exists($fileinc = $pathLanguage . '/language/' . $GLOBALS['xoopsConfig']['language'] . '/' . 'main.php')) {
     $fileinc = $pathLanguage . '/language/english/main.php';
 }
@@ -61,4 +60,4 @@ $adminmenu[$i]["icon"]  = $pathIcon32 . '/about.png';
 //    $headermenu[$i]['title'] = _AM_SOBJECT_ABOUT;
 //    $headermenu[$i]['link'] = SMARTCLONE_URL . "admin/about2.php";
 //}
-//?>
+//;

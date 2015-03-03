@@ -6,6 +6,7 @@ if(!function_exists('file_put_contents')) {
         $fp = fopen($filename, (!$file_append ? 'w+' : 'a+'));
         if(!$fp) {
             trigger_error('file_put_contents cannot write in file "' . $filename . '"', E_USER_ERROR);
+
             return;
         }
         fputs($fp, $data);
@@ -52,6 +53,7 @@ class SmartClone {
         // Check wether the new module to be created already exists
         if (is_dir(XOOPS_ROOT_PATH . '/modules/' . $this->_toModule)) {
             $this->setError(sprintf(_AM_SCLONE_NEW_MODULE_ALREADY_EXISTS, $this->_toModule));
+
             return false;
         }
         $this->_sCloNe = $this->_toModule;
@@ -129,10 +131,12 @@ class SmartClone {
             $this->cloneFileFolder($module_dir  . "/" . $this->_fromModule);
         } else {
             $this->setError(_AM_SCLONE_CHANGE_PERMISSION_FAILED);
+
             return false;
         }
         $this->storeLogsToFile();
         chmod($module_dir, $fileperm);
+
         return true;
     }
     function cloneFileFolder($path) {
@@ -186,6 +190,7 @@ class SmartClone {
         if ($aPattern) {
             $ret = $this->prefixSuffix($ret, $aPattern);
         }
+
         return $ret;
     }
 
@@ -196,6 +201,7 @@ class SmartClone {
         if (isset($aPattern['suffix'])) {
             $text = $text . $aPattern['suffix'] ;
         }
+
         return $text;
     }
 
@@ -208,6 +214,7 @@ class SmartClone {
         foreach ($this->_errors as $error) {
             $ret .= "$error <br />";
         }
+
         return $ret;
     }
 
@@ -220,6 +227,7 @@ class SmartClone {
         foreach ($this->_logs as $log) {
             $ret .= "$log\r\n";
         }
+
         return $ret;
     }
 
@@ -229,8 +237,7 @@ class SmartClone {
 
     function storeLogsToFile() {
         $filename = $this->_newPath ."/cloning.log";
+
         return file_put_contents($filename, $this->getLogs());
     }
 }
-
-?>

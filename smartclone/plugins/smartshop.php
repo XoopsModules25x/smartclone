@@ -77,5 +77,3 @@ $i++;
 $pluginPatterns[$i]['key'] = 'SmartShop';
 $pluginPatterns[$i]['replacement'] = 'ModuleName';
 $i++;
-
-?>

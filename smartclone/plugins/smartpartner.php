@@ -77,5 +77,3 @@ $i++;
 $pluginPatterns[$i]['key'] = 'SmartPartner';
 $pluginPatterns[$i]['replacement'] = 'ModuleName';
 $i++;
-
-?>
