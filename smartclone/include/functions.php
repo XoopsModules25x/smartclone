@@ -8,6 +8,3 @@
  */
 
 include_once XOOPS_ROOT_PATH.'/modules/smartclone/include/common.php';
-
-
-?>

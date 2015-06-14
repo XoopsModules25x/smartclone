@@ -58,4 +58,3 @@ switch ($op) {
             include_once 'admin_footer.php';
         break;
 }
-?>

@@ -77,5 +77,3 @@ $i++;
 $pluginPatterns[$i]['key'] = 'SmartClient';
 $pluginPatterns[$i]['replacement'] = 'ModuleName';
 $i++;
-
-?>

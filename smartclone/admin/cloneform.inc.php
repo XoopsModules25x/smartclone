@@ -39,4 +39,3 @@ $form_button_tray->addElement($butt_cancel);
 $form->addElement($form_button_tray);
 
 $form->display();
-?>

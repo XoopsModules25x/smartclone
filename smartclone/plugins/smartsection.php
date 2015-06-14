@@ -88,5 +88,3 @@ $pluginPatterns[$i]['key'] = 'SmartMetaGen';
 $pluginPatterns[$i]['replacement'] = 'Modulename';
 $pluginPatterns[$i]['suffix'] = 'MetaGen';
 $i++;
-
-?>

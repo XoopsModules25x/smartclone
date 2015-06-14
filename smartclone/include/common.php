@@ -41,5 +41,3 @@ $smartclone_moduleName = $smartclone_module->getVar('name');
 
 // Creating the SmartModule config Object
 $smartclone_config =& smart_getModuleConfig(SMARTCLONE_DIRNAME);
-
-?>

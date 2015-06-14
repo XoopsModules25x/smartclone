@@ -77,5 +77,3 @@ $i++;
 $pluginPatterns[$i]['key'] = 'SmartFAQ';
 $pluginPatterns[$i]['replacement'] = 'ModuleName';
 $i++;
-
-?>

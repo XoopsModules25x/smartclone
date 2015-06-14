@@ -22,5 +22,3 @@ if( !defined("SMARTCLONE_ADMIN_URL") ){
 if( !defined("SMARTCLONE_ADMIN_ROOT_PATH") ){
     define('SMARTCLONE_ADMIN_ROOT_PATH', SMARTCLONE_ROOT_PATH . "admin/");
 }
-
-?>
