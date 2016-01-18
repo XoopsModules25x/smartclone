@@ -1,9 +1,0 @@
-Credits
-===============
-
-This module was made possible by 2 great developers. The original cloning script was developed by Sudhaker for the SmartSection module.
-It was then improved by Solo who encapsulated Sudhaker's code into an easy web form interface for his Edito module.
-It was only after Solo have shown Marcan his latest Edito that he had the idea to create a module that could clone any module
-in a '1 click operation'. Many thanks to Sudhaker and Solo for they made this module possible!
-
-Version 1.10 was updated to XOOPS 2.5.0 Standard GUI by Mamba
